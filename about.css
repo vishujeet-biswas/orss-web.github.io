@@ -1,0 +1,252 @@
+.top{
+    margin-top: 90px;
+}
+.gn-info .content {
+padding: 30px;
+background: #009970;
+border-radius: 4px;
+color: #fff;
+font-family: "Open Sans", sans-serif;
+color: #444444;
+}
+
+.gn-info .content h3 {
+font-weight: 700;
+font-size: 34px;
+margin-bottom: 30px;
+}
+
+.gn-info .content p {
+margin-bottom: 30px;
+}
+
+.gn-info .content .more-btn {
+display: inline-block;
+background: rgba(255, 255, 255, 0.1);
+padding: 6px 30px 8px 30px;
+color: #fff;
+border-radius: 50px;
+transition: all ease-in-out 0.4s;
+}
+
+.gn-info .content .more-btn i {
+font-size: 14px;
+}
+
+.gn-info .content .more-btn:hover {
+color: #009970;
+background: #fff;
+}
+
+.gn-info .icon-boxes .icon-box {
+text-align: center;
+border-radius: 10px;
+background: #fff;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+padding: 40px 30px;
+width: 100%;
+transition: 0.3s;
+}
+
+.gn-info .icon-boxes .icon-box i {
+font-size: 40px;
+color: #009970;
+margin-bottom: 30px;
+}
+
+.gn-info .icon-boxes .icon-box h4 {
+font-size: 20px;
+font-weight: 700;
+margin: 0 0 30px 0;
+}
+
+.gn-info .icon-boxes .icon-box p {
+font-size: 15px;
+color: #848484;
+}
+
+.gn-info .icon-boxes .icon-box:hover {
+box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
+}
+element {
+
+}
+.gen-info-title h2 {
+
+font-size: 32px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 20px;
+padding-bottom: 20px;
+position: relative;
+
+}
+.gen-info-title h2::after {
+
+content: '';
+position: absolute;
+display: block;
+width: 50px;
+height: 3px;
+background: #009970;
+bottom: 0;
+left: 0;
+
+}
+
+.bullets{
+    font-size: 25px;
+}
+
+/* table css ==================================== */
+.gn-info-table{
+    border-bottom: 3px solid #009970;
+    border-right: 3px solid  #009970;
+    border-top: 3px solid  #009970;
+    border-radius: 5px;
+}
+
+/* Brief =======================> */
+.brief{
+    background-color: #f6f6f7;
+    padding: 60px 0;
+    overflow: hidden;
+}
+.brief p{
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* objective --------------- */
+.obj{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* =========> staff and Volunteers */
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    color: #fff;
+    background: #009970;
+  }
+  
+  .portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .portfolio .portfolio-wrap {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(54, 52, 58, 0.6);
+  }
+  
+  .portfolio .portfolio-wrap::before {
+    content: "";
+    background: rgba(54, 52, 58, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 2;
+  }
+  
+  .portfolio .portfolio-wrap img {
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-info p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links {
+    text-align: center;
+    z-index: 4;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a {
+    color: #fff;
+    margin: 0 5px 0 0;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .portfolio .portfolio-wrap .portfolio-links a:hover {
+    color: #00cc95;
+  }
+  
+  .portfolio .portfolio-wrap:hover::before {
+    opacity: 1;
+  }
+  
+  .portfolio .portfolio-wrap:hover img {
+    transform: scale(1.2);
+  }
+  
+  .portfolio .portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+  }
+  
